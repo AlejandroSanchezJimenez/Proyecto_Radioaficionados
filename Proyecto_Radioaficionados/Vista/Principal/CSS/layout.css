@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cabecera {
+    width: 100%;
+    position: fixed;        
+    background: rgb(0, 0, 0);
+    height: 70px;
+    top:0;
+    left: 0;
+    margin: 0%;
+}
+.logo {
+    position:absolute;
+    width: 120px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.icon {
+    width: 100px;
+    position: absolute;
+    margin: 8px;
+}
+.login {
+    position: relative;
+    width: 40px;
+    margin: 15px;
+    float: right;
+}
+.menu {
+    position: relative;
+    float: right;
+    width: 40px;
+    margin: 15px;
+}
+.nav-wrap {
+    position: relative;
+    float: right;
+}
+.nav-wrap ul {
+    list-style: none;
+}
+.menu-icon > li{
+    position: relative;
+    display: inline-block;
+}
+.menu-icon > li > a {
+    border-style: solid;
+    border: 1px;
+    height: 70px;
+    width: 70px;
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu-icon li a:hover {
+    color: aquamarine;
+}
+.submenu {
+    margin: 0;
+    position:absolute;
+    background-color: black;
+    display: none;
+    right: 0;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Merriweather';
+    text-decoration: none;
+    font-size: x-large;
+}
+.menu-icon li:hover .submenu {
+    display:block;
+}
+.cuerpo {
+    background-color: crimson;
+}
+.text-center {
+    text-align: center;
+    color: black;
+}
